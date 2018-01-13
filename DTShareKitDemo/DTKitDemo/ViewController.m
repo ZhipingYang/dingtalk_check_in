@@ -54,7 +54,7 @@
 - (void)updateTimeLabel
 {
 	NSString *tip = [_datePicker.date isLaterThan:[NSDate date]] ? @"今天" : @"明天";
-	self.dailyTime.text = [NSString stringWithFormat:@"%@ - %zd:%zd", tip, _hour, _minute];
+	self.dailyTime.text = [NSString stringWithFormat:@"%@ - %02zd:%02zd", tip, _hour, _minute];
 }
 
 - (void)scheduleNotification
