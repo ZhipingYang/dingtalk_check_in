@@ -7,9 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <DTShareKit/DTOpenKit.h>
-#import "HistoryController.h"
 #import "AppExtentsion.h"
+#import <DTShareKit/DTOpenKit.h>
 
 @interface AppDelegate ()
 @end
