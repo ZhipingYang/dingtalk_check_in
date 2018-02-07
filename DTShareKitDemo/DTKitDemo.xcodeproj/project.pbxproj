@@ -15,11 +15,9 @@
 		6172E9751C2AD578002CD71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6172E9731C2AD578002CD71B /* Main.storyboard */; };
 		6172E9771C2AD578002CD71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6172E9761C2AD578002CD71B /* Assets.xcassets */; };
 		6172E97A1C2AD578002CD71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6172E9781C2AD578002CD71B /* LaunchScreen.storyboard */; };
+		65275108202A93B7007780BC /* BlackOverlayeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65275107202A93B7007780BC /* BlackOverlayeView.m */; };
 		656291E7200A1DDC00D83DAA /* AppExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 656291E6200A1DDC00D83DAA /* AppExtentsion.m */; };
 		656291F8200A433D00D83DAA /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656291F7200A433D00D83DAA /* HistoryController.m */; };
-		65A16E05200E2C450013808B /* DTAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A16E03200E2C450013808B /* DTAppInfo.m */; };
-		65A16E06200E2C450013808B /* AppListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A16E04200E2C450013808B /* AppListDataSource.m */; };
-		65A16E09200E2C9A0013808B /* AppListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A16E08200E2C9A0013808B /* AppListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,16 +33,12 @@
 		6172E9761C2AD578002CD71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6172E9791C2AD578002CD71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6172E97B1C2AD578002CD71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65275106202A93B7007780BC /* BlackOverlayeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackOverlayeView.h; sourceTree = "<group>"; };
+		65275107202A93B7007780BC /* BlackOverlayeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackOverlayeView.m; sourceTree = "<group>"; };
 		656291E5200A1DDC00D83DAA /* AppExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppExtentsion.h; sourceTree = "<group>"; };
 		656291E6200A1DDC00D83DAA /* AppExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppExtentsion.m; sourceTree = "<group>"; };
 		656291F6200A433D00D83DAA /* HistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryController.h; sourceTree = "<group>"; };
 		656291F7200A433D00D83DAA /* HistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
-		65A16DFF200E2C450013808B /* AppListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppListDataSource.h; sourceTree = "<group>"; };
-		65A16E00200E2C450013808B /* DTAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAppInfo.h; sourceTree = "<group>"; };
-		65A16E03200E2C450013808B /* DTAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAppInfo.m; sourceTree = "<group>"; };
-		65A16E04200E2C450013808B /* AppListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppListDataSource.m; sourceTree = "<group>"; };
-		65A16E07200E2C9A0013808B /* AppListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppListController.h; sourceTree = "<group>"; };
-		65A16E08200E2C9A0013808B /* AppListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,15 +73,14 @@
 		6172E9691C2AD578002CD71B /* DTKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				65A16DFD200E2C450013808B /* list */,
 				6172E96D1C2AD578002CD71B /* AppDelegate.h */,
 				6172E96E1C2AD578002CD71B /* AppDelegate.m */,
+				65275106202A93B7007780BC /* BlackOverlayeView.h */,
+				65275107202A93B7007780BC /* BlackOverlayeView.m */,
 				6172E9701C2AD578002CD71B /* ViewController.h */,
 				6172E9711C2AD578002CD71B /* ViewController.m */,
 				656291F6200A433D00D83DAA /* HistoryController.h */,
 				656291F7200A433D00D83DAA /* HistoryController.m */,
-				65A16E07200E2C9A0013808B /* AppListController.h */,
-				65A16E08200E2C9A0013808B /* AppListController.m */,
 				656291E5200A1DDC00D83DAA /* AppExtentsion.h */,
 				656291E6200A1DDC00D83DAA /* AppExtentsion.m */,
 				6172E9731C2AD578002CD71B /* Main.storyboard */,
@@ -106,17 +99,6 @@
 				6172E96B1C2AD578002CD71B /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		65A16DFD200E2C450013808B /* list */ = {
-			isa = PBXGroup;
-			children = (
-				65A16E00200E2C450013808B /* DTAppInfo.h */,
-				65A16E03200E2C450013808B /* DTAppInfo.m */,
-				65A16DFF200E2C450013808B /* AppListDataSource.h */,
-				65A16E04200E2C450013808B /* AppListDataSource.m */,
-			);
-			path = list;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				656291F8200A433D00D83DAA /* HistoryController.m in Sources */,
-				65A16E06200E2C450013808B /* AppListDataSource.m in Sources */,
 				656291E7200A1DDC00D83DAA /* AppExtentsion.m in Sources */,
 				6172E9721C2AD578002CD71B /* ViewController.m in Sources */,
-				65A16E05200E2C450013808B /* DTAppInfo.m in Sources */,
 				6172E96F1C2AD578002CD71B /* AppDelegate.m in Sources */,
+				65275108202A93B7007780BC /* BlackOverlayeView.m in Sources */,
 				6172E96C1C2AD578002CD71B /* main.m in Sources */,
-				65A16E09200E2C9A0013808B /* AppListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

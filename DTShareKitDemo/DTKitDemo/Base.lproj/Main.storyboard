@@ -202,13 +202,7 @@
                             <outlet property="delegate" destination="FRt-hG-CHD" id="dsi-RJ-HHA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="钉钉定时打卡" id="SjW-2V-Oki">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="vEQ-sa-tP3">
-                            <connections>
-                                <segue destination="hrp-9c-Q0L" kind="show" id="oHV-qg-xg4"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="钉钉定时打卡" id="SjW-2V-Oki"/>
                     <connections>
                         <outlet property="dailyTime" destination="eC5-3P-rnY" id="wTj-JM-cia"/>
                         <outlet property="datePicker" destination="58b-as-yO6" id="pVJ-RM-xCa"/>
@@ -254,44 +248,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j1n-1D-BZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="906" y="24"/>
-        </scene>
-        <!--App List Controller-->
-        <scene sceneID="gLB-dw-wlK">
-            <objects>
-                <viewController id="hrp-9c-Q0L" customClass="AppListController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KE7-it-f3u"/>
-                        <viewControllerLayoutGuide type="bottom" id="KsD-yT-RCQ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hyx-AG-BbK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pQo-fJ-5UY">
-                                <rect key="frame" x="0.0" y="384" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H52-zy-NfB">
-                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="H52-zy-NfB" firstAttribute="top" secondItem="KE7-it-f3u" secondAttribute="bottom" id="64h-h6-3FR"/>
-                            <constraint firstItem="H52-zy-NfB" firstAttribute="leading" secondItem="hyx-AG-BbK" secondAttribute="leading" id="fO1-5n-aM6"/>
-                            <constraint firstAttribute="trailing" secondItem="H52-zy-NfB" secondAttribute="trailing" id="jOZ-Zs-brO"/>
-                            <constraint firstItem="KsD-yT-RCQ" firstAttribute="top" secondItem="H52-zy-NfB" secondAttribute="bottom" id="ssS-FL-cVZ"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="tableView" destination="H52-zy-NfB" id="loa-aK-dnx"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Teh-Ar-OAS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1712" y="-178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c3g-bq-nH4">

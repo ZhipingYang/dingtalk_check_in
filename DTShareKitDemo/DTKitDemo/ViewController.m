@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "AppExtentsion.h"
 #import <DTShareKit/DTOpenKit.h>
+#import "BlackOverlayeView.h"
 
 @interface ViewController ()<UITextFieldDelegate>
 {
@@ -27,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	[BlackOverlayeView startAutoCover];
+	
 	_isInstalledSwitch.on = [DTOpenAPI isDingTalkInstalled];
 	
 	NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
