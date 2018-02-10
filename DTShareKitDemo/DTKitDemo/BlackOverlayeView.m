@@ -75,8 +75,12 @@
 	BOOL isCharging = [UIDevice currentDevice].batteryState == UIDeviceBatteryStateCharging || [UIDevice currentDevice].batteryState == UIDeviceBatteryStateFull;
 	label.text = [NSString stringWithFormat:@"%@%02zd:%02zd",isCharging ? @"":@"请接上电源\n",hour,minute];
 	label.textColor = isCharging ? [UIColor colorWithWhite:0.1 alpha:1] : [UIColor colorWithRed:0.3 green:0 blue:0 alpha:1];
-	[label sizeToFit];
-	label.center = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+}
+
+- (void)layoutSubviews
+{
+	[super layoutSubviews];
+	label.frame = self.bounds;
 }
 
 @end

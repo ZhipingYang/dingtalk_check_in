@@ -29,7 +29,6 @@
 {
     [super viewDidLoad];
 	[BlackOverlayeView startAutoCover];
-	
 	_isInstalledSwitch.on = [DTOpenAPI isDingTalkInstalled];
 	
 	NSUserDefaults *user = [NSUserDefaults standardUserDefaults];

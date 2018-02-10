@@ -20,6 +20,7 @@
 {
     // 注册AppId;
     [DTOpenAPI registerApp:@"dingoak5hqhuvmpfhpnjvt"];
+	[UIApplication sharedApplication].idleTimerDisabled = YES;
     return YES;
 }
 
