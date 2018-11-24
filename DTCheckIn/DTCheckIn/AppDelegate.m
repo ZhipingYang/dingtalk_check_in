@@ -21,6 +21,7 @@
     // 注册AppId;
     [DTOpenAPI registerApp:@"dingoak5hqhuvmpfhpnjvt"];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
     return YES;
 }
 
