@@ -20,22 +20,22 @@
 {
     // 注册AppId;
     [DTOpenAPI registerApp:@"dingoak5hqhuvmpfhpnjvt"];
-	[UIApplication sharedApplication].idleTimerDisabled = YES;
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
     return YES;
 }
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
 {
-//	UIApplicationState state = [[UIApplication sharedApplication] applicationState];
-	
-	NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
-	NSArray <NSString *> *history = [user objectForKey:@"HistoryRecords"] ?: @[];
-	NSMutableArray *newHistory = history.mutableCopy;
-	[newHistory insertObject:[[NSDate date] converChinese] atIndex:0];
-	[user setObject:[NSArray arrayWithArray:newHistory] forKey:@"HistoryRecords"];
-	[user synchronize];
-	
-	[DTOpenAPI openDingTalk];
+    //    UIApplicationState state = [[UIApplication sharedApplication] applicationState];
+    
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    NSArray <NSString *> *history = [user objectForKey:@"HistoryRecords"] ?: @[];
+    NSMutableArray *newHistory = history.mutableCopy;
+    [newHistory insertObject:[[NSDate date] converChinese] atIndex:0];
+    [user setObject:[NSArray arrayWithArray:newHistory] forKey:@"HistoryRecords"];
+    [user synchronize];
+    
+    [DTOpenAPI openDingTalk];
 }
 
 @end

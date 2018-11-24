@@ -1,9 +1,9 @@
 //
 //  main.m
-//  DTShareKitDemo
+//  DTCheckIn
 //
-//  Created by 青山 on 15/12/23.
-//  Copyright © 2015年 QingShan. All rights reserved.
+//  Created by Daniel on 2018/11/20.
+//  Copyright © 2018 Daniel. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
