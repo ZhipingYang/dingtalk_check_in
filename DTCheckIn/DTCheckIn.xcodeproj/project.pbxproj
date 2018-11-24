@@ -17,6 +17,7 @@
 		6557069921A3355600E63FB7 /* AppExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557069521A3355500E63FB7 /* AppExtentsion.m */; };
 		6557069A21A3355600E63FB7 /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557069621A3355500E63FB7 /* HistoryController.m */; };
 		6557069B21A3355600E63FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6557069721A3355500E63FB7 /* ViewController.m */; };
+		65B8873F21A9338A000385CF /* SupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B8873E21A9338A000385CF /* SupportViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6557069521A3355500E63FB7 /* AppExtentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppExtentsion.m; sourceTree = "<group>"; };
 		6557069621A3355500E63FB7 /* HistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
 		6557069721A3355500E63FB7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65B8873D21A9338A000385CF /* SupportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportViewController.h; sourceTree = "<group>"; };
+		65B8873E21A9338A000385CF /* SupportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				6557069621A3355500E63FB7 /* HistoryController.m */,
 				6557069421A3355500E63FB7 /* ViewController.h */,
 				6557069721A3355500E63FB7 /* ViewController.m */,
+				65B8873D21A9338A000385CF /* SupportViewController.h */,
+				65B8873E21A9338A000385CF /* SupportViewController.m */,
 				6557067E21A334B700E63FB7 /* Main.storyboard */,
 				6557068121A334B800E63FB7 /* Assets.xcassets */,
 				6557068321A334B800E63FB7 /* LaunchScreen.storyboard */,
@@ -163,6 +168,7 @@
 				6557069B21A3355600E63FB7 /* ViewController.m in Sources */,
 				6557069A21A3355600E63FB7 /* HistoryController.m in Sources */,
 				6557069921A3355600E63FB7 /* AppExtentsion.m in Sources */,
+				65B8873F21A9338A000385CF /* SupportViewController.m in Sources */,
 				6557069821A3355600E63FB7 /* BlackOverlayeView.m in Sources */,
 				6557068821A334B800E63FB7 /* main.m in Sources */,
 				6557067A21A334B700E63FB7 /* AppDelegate.m in Sources */,
