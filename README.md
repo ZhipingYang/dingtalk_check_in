@@ -1,7 +1,9 @@
 # 钉钉早上自动打卡小助手 
+> 🔗  [去 AppStore 下载安装](https://itunes.apple.com/us/app/spirality/id1318807907)
 
-
-<img width="250" alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/34906858-9a4c13c8-f8b0-11e7-819c-cb8c0e30b277.png"> <img width="250" alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/34906859-9b69e2bc-f8b0-11e7-840e-a682231c5736.png"> <img width="250" alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/34906877-01da6756-f8b1-11e7-8d64-9b001c7c6126.png">
+<p align="center">
+<img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965804-0a1a6100-efff-11e8-8ae8-00baa290b088.png"> <img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965802-0a1a6100-efff-11e8-8d56-54cb2a17bdd9.png"> <img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965844-ea376d00-efff-11e8-8802-6f48680ee78a.png">
+</p>
 
 > 安卓手机远程打卡羡慕，iOSer苦逼啊
 > 
