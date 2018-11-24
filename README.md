@@ -1,5 +1,5 @@
 # 钉钉早上自动打卡小助手 
-> 🔗  [去 AppStore 下载安装](https://itunes.apple.com/us/app/spirality/id1318807907)
+> 🔗  [去 AppStore 下载安装](https://itunes.apple.com/cn/app/钉钉打卡/id1443612900)
 
 <p align="center">
 <img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965804-0a1a6100-efff-11e8-8ae8-00baa290b088.png"> <img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965802-0a1a6100-efff-11e8-8d56-54cb2a17bdd9.png"> <img width=32% alt="wx20170601-170002 2x" src="https://user-images.githubusercontent.com/9360037/48965844-ea376d00-efff-11e8-8802-6f48680ee78a.png">
