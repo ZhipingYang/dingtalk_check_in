@@ -22,17 +22,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon1160" translatesAutoresizingMaskIntoConstraints="NO" id="miq-bc-OHl">
-                                <rect key="frame" x="97.5" y="243.5" width="180" height="180"/>
+                                <rect key="frame" x="97.5" y="203.5" width="180" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="ZN5-WY-v09"/>
                                     <constraint firstAttribute="height" constant="180" id="hg5-AE-3eI"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="定时打卡" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCv-dR-YZh">
+                                <rect key="frame" x="132.5" y="391" width="110" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.090196078431372548" green="0.55294117647058827" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="lCv-dR-YZh" firstAttribute="centerX" secondItem="miq-bc-OHl" secondAttribute="centerX" id="INa-pK-T74"/>
+                            <constraint firstItem="lCv-dR-YZh" firstAttribute="top" secondItem="miq-bc-OHl" secondAttribute="bottom" constant="7.5" id="N7B-yK-RMk"/>
                             <constraint firstItem="miq-bc-OHl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ksD-za-Vn3"/>
-                            <constraint firstItem="miq-bc-OHl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m1A-cJ-sPf"/>
+                            <constraint firstItem="miq-bc-OHl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-40" id="m1A-cJ-sPf"/>
                         </constraints>
                     </view>
                 </viewController>
