@@ -20,12 +20,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppIcon1160" translatesAutoresizingMaskIntoConstraints="NO" id="miq-bc-OHl">
+                                <rect key="frame" x="97.5" y="243.5" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="ZN5-WY-v09"/>
+                                    <constraint firstAttribute="height" constant="180" id="hg5-AE-3eI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090196078431372548" green="0.55294117647058827" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="miq-bc-OHl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ksD-za-Vn3"/>
+                            <constraint firstItem="miq-bc-OHl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m1A-cJ-sPf"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AppIcon1160" width="180" height="180"/>
+    </resources>
 </document>

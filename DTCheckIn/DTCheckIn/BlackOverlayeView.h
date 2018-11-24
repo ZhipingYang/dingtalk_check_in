@@ -11,5 +11,6 @@
 @interface BlackOverlayeView : UIView
 
 + (void)startAutoCover;
++ (void)dismissCover;
 
 @end
